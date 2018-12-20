@@ -1,0 +1,10 @@
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\bin\Debug\Gametrucxanh.exe.config
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\bin\Debug\Gametrucxanh.exe
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\bin\Debug\Gametrucxanh.pdb
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.Form1.resources
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.Properties.Resources.resources
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.csproj.GenerateResource.Cache
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.exe
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.pdb
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.csprojResolveAssemblyReference.cache
+D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.exe.licenses
