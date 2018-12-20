@@ -8,3 +8,13 @@ D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.
 D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.pdb
 D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.csprojResolveAssemblyReference.cache
 D:\06dhth5\BaiTapWindownangcao\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.exe.licenses
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\bin\Debug\Gametrucxanh.exe.config
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.exe
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.pdb
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\bin\Debug\Gametrucxanh.exe
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\bin\Debug\Gametrucxanh.pdb
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.csprojResolveAssemblyReference.cache
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.Form1.resources
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.Properties.Resources.resources
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.csproj.GenerateResource.Cache
+C:\Users\Quay\Desktop\Gitcoban\demoProjectGit\Gametrucxanh\Gametrucxanh\obj\Debug\Gametrucxanh.exe.licenses

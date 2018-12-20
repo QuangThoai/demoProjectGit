@@ -36,6 +36,7 @@
             this.txt_design = new System.Windows.Forms.RichTextBox();
             this.gbdark = new System.Windows.Forms.GroupBox();
             this.tgian = new System.Windows.Forms.Label();
+            this.btn_restart = new System.Windows.Forms.Button();
             this.gbcontrol.SuspendLayout();
             this.gbtt.SuspendLayout();
             this.gbdark.SuspendLayout();
@@ -43,7 +44,7 @@
             // 
             // txt_sohinh
             // 
-            this.txt_sohinh.Location = new System.Drawing.Point(11, 22);
+            this.txt_sohinh.Location = new System.Drawing.Point(67, 21);
             this.txt_sohinh.Name = "txt_sohinh";
             this.txt_sohinh.Size = new System.Drawing.Size(100, 20);
             this.txt_sohinh.TabIndex = 0;
@@ -55,7 +56,7 @@
             this.btn_start.Name = "btn_start";
             this.btn_start.Size = new System.Drawing.Size(75, 23);
             this.btn_start.TabIndex = 1;
-            this.btn_start.Text = "Start";
+            this.btn_start.Text = "Bắt đầu";
             this.btn_start.UseVisualStyleBackColor = true;
             this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
@@ -73,6 +74,7 @@
             // 
             // gbcontrol
             // 
+            this.gbcontrol.Controls.Add(this.btn_restart);
             this.gbcontrol.Controls.Add(this.txt_sohinh);
             this.gbcontrol.Controls.Add(this.btn_start);
             this.gbcontrol.Location = new System.Drawing.Point(12, 12);
@@ -125,6 +127,16 @@
             this.tgian.TabIndex = 0;
             this.tgian.Text = "0000000";
             // 
+            // btn_restart
+            // 
+            this.btn_restart.Location = new System.Drawing.Point(133, 47);
+            this.btn_restart.Name = "btn_restart";
+            this.btn_restart.Size = new System.Drawing.Size(75, 23);
+            this.btn_restart.TabIndex = 2;
+            this.btn_restart.Text = "Chơi lại";
+            this.btn_restart.UseVisualStyleBackColor = true;
+            this.btn_restart.Click += new System.EventHandler(this.btn_restart_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,6 +170,7 @@
         private System.Windows.Forms.RichTextBox txt_design;
         private System.Windows.Forms.GroupBox gbdark;
         private System.Windows.Forms.Label tgian;
+        private System.Windows.Forms.Button btn_restart;
     }
 }
 

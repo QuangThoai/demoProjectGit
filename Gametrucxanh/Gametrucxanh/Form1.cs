@@ -19,41 +19,53 @@ namespace Gametrucxanh
         }
         Random r = new Random();
         int n;
+        bool Check_empty_textbox(string text)
+        {
+            if (string.IsNullOrEmpty(text))
+                return false;
+            else
+                return true;
+        }
         private void btn_start_Click(object sender, EventArgs e)
         {
-            
-            n= Int32.Parse( txt_sohinh.Text.ToString());
-            ArrayList hinh = new ArrayList(); //Khai baos mangr de chua random hinh
-            int k = 0, j = 0;
-            for (int i = 0; i < n*2; i++)
+            if (Check_empty_textbox(txt_sohinh.Text))
             {
-                Button btnhinh = new Button();
-                btnhinh.Name = "btn" + i.ToString();
-                btnhinh.Width = 150;
-                btnhinh.Height = 150;
-                btnhinh.Top = 10 + j * 150;
-                btnhinh.Left = 10 + k * 150;
-                btnhinh.Image = Image.FromFile("Anh/anhnen.png");
-                btnhinh.Click += btnhinh_Click;
-                if (i < n)                                      //Vì chỉ demo nên chỗ này để n (n phụ thuộc vào hình trong debug
-                {                                               // Tạo random hình vào gắn cho button và arraylist
-                    int stt = r.Next(0, n);                      //Phần này chỉ tạo cho nửa số button (sau đó nhân đôi)
-                    btnhinh.Tag = stt;
-                    hinh.Add(stt);
-                }
-                else
-                {                                               // Một nửa button còn lại dựa vào index trong list
-                    int stt = r.Next(0, hinh.Count - 1);
-                    btnhinh.Tag = hinh[stt];
-                    hinh.RemoveAt(stt);
-                }
-                gbox_trucxanh.Controls.Add(btnhinh);            //Tạo groupbox để add và foreach button sau này (Tùy sao cũng dc)
-                k++;
-                if (k == 6)                                     //Tạo hàng 6 hình
+                n = Int32.Parse(txt_sohinh.Text.ToString());
+                ArrayList hinh = new ArrayList(); //Khai baos mangr de chua random hinh
+                int k = 0, j = 0;
+                for (int i = 0; i < n * 2; i++)
                 {
-                    k = 0; j++;
+                    Button btnhinh = new Button();
+                    btnhinh.Name = "btn" + i.ToString();
+                    btnhinh.Width = 150;
+                    btnhinh.Height = 150;
+                    btnhinh.Top = 10 + j * 150;
+                    btnhinh.Left = 10 + k * 150;
+                    btnhinh.Image = Image.FromFile("Anh/anhnen.png");
+                    btnhinh.Click += btnhinh_Click;
+                    if (i < n)                                      //Vì chỉ demo nên chỗ này để n (n phụ thuộc vào hình trong debug
+                    {                                               // Tạo random hình vào gắn cho button và arraylist
+                        int stt = r.Next(0, n);                      //Phần này chỉ tạo cho nửa số button (sau đó nhân đôi)
+                        btnhinh.Tag = stt;
+                        hinh.Add(stt);
+                    }
+                    else
+                    {                                               // Một nửa button còn lại dựa vào index trong list
+                        int stt = r.Next(0, hinh.Count - 1);
+                        btnhinh.Tag = hinh[stt];
+                        hinh.RemoveAt(stt);
+                    }
+                    gbox_trucxanh.Controls.Add(btnhinh);            //Tạo groupbox để add và foreach button sau này (Tùy sao cũng dc)
+                    k++;
+                    if (k == 6)                                     //Tạo hàng 6 hình
+                    {
+                        k = 0; j++;
+                    }
                 }
             }
+            txt_sohinh.Enabled = btn_start.Enabled = false;
+            txt_sohinh.Text = string.Empty;
+            
         }
         int solanbam = 0;
         string a, b, nut1, nut2;
@@ -108,12 +120,21 @@ namespace Gametrucxanh
         private void Form1_Load(object sender, EventArgs e)
         {
             txt_design.Text = "Trò chơi được tạo bởi nhóm Windows Nâng cao \n Trần Quang Thoại \n Trịnh Thị Anh \n Đặng Minh Dương";
+            btn_restart.Enabled = false;
         }
 
         private void txt_sohinh_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
                 e.Handled = true;
+        }
+
+        private void btn_restart_Click(object sender, EventArgs e)
+        {
+            txt_sohinh.Enabled = btn_start.Enabled = true;
+            txt_sohinh.Text = string.Empty;
+            btn_restart.Enabled = false;
+            gbox_trucxanh.Controls.Clear();
         }
     }
 }
