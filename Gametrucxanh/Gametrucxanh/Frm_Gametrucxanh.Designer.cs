@@ -1,6 +1,6 @@
 ﻿namespace Gametrucxanh
 {
-    partial class Form1
+    partial class Frm_Gametrucxanh
     {
         /// <summary>
         /// Required designer variable.
